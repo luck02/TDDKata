@@ -1,0 +1,3 @@
+@protocol ISanityCheckRepo <NSObject>
+
+@end
