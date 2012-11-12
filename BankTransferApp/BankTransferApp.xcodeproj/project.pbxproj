@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6704008D90DD45C577E5735D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6704008CDBBF1DFDB3CCBBF3 /* Foundation.framework */; };
+		670402128C7E503598686250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 670400A881EE22548BA8A616 /* main.m */; };
+		670402470A005889F529EBE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6704075D504AA89089E83B65 /* InfoPlist.strings */; };
+		670403378F0F6D7C01D66DDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670409510B2428AE0EED5E3A /* CoreGraphics.framework */; };
+		6704034959F025FC4BC1AB5E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67040A51053ADB7AB2810227 /* UIKit.framework */; };
+		6704046B20CA6976CAED211E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67040BAADB97D351DF3242C1 /* InfoPlist.strings */; };
+		6704068D15ABAF941B945D5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67040A51053ADB7AB2810227 /* UIKit.framework */; };
+		670406DB214C162BD960FC43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6704082D761F2D4B176254BF /* ViewController.m */; };
+		670406FF28325872A912E6BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67040CB3F221F01F4BB0BC4D /* Default-568h@2x.png */; };
+		670408A0CFE2EC5FEA90A83D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67040356C59731F326078448 /* ViewController.xib */; };
+		670409878D8D6CFC06F50048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6704080396B696365335816C /* AppDelegate.m */; };
+		670409A8764FCA7CC60382AC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67040A9B30EB5A2DD0C20F47 /* SenTestingKit.framework */; };
+		67040A6F2F8FD54C5CE19365 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 670404A70A678B7AECDD1625 /* libOCMock.a */; };
+		67040AB046CBF47FB1FCF115 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67040A271449B372BDF6C5A3 /* Default@2x.png */; };
+		67040B4A23D393881DAA3DCB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 670407212DDE53C71C6004F8 /* Default.png */; };
+		67040BDACD6B23A9BEA0D5C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6704008CDBBF1DFDB3CCBBF3 /* Foundation.framework */; };
+		67040BF68354C13FFB5619D0 /* SanityCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6704081CCC4CB615E9E4F0DA /* SanityCheck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67040C88AF37934BA4E1A7F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6704094DBEC3A8AF4D2DDC4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6704093B8FFCE7A93CB558B4;
+			remoteInfo = BankTransferApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6704006450F3C439A282489D /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		6704008CDBBF1DFDB3CCBBF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		670400A881EE22548BA8A616 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		670400B5BF3CCCBC74B8B875 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		670401B9F88DD87C1E716B60 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		670402124E7630F4974C68BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		670404902B78434CE7D44194 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		670404A70A678B7AECDD1625 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libs/libOCMock.a; sourceTree = "<group>"; };
+		6704055C9318DD978CC8746F /* BankTransferAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BankTransferAppTests-Info.plist"; sourceTree = "<group>"; };
+		6704066B143664CE5F57BDBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67040705D8CE8BB0E7C7A779 /* ISanityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheck.h; sourceTree = "<group>"; };
+		670407212DDE53C71C6004F8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		670407DFB760978E2A3D4DBD /* BankTransferApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankTransferApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6704080396B696365335816C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6704081CCC4CB615E9E4F0DA /* SanityCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheck.m; sourceTree = "<group>"; };
+		6704082D761F2D4B176254BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		670408B8C6833C99187F805A /* BankTransferApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "BankTransferApp-Info.plist"; sourceTree = "<group>"; };
+		6704093D7FFD0BFBA20871E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		670409510B2428AE0EED5E3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67040A271449B372BDF6C5A3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		67040A51053ADB7AB2810227 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67040A9B30EB5A2DD0C20F47 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		67040B47080927727EC18BAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67040CB3F221F01F4BB0BC4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		67040CDDA88C18E26DB4BFBC /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		67040D90DE14D225623FBCBA /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		67040E0F8B16553C37113CAC /* BankTransferApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BankTransferApp-Prefix.pch"; sourceTree = "<group>"; };
+		67040F83B1C35C85C158E8D8 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		67040F99305A07D4634B879F /* BankTransferAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankTransferAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67040FD8CF95BD88E4BB1BB9 /* SanityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SanityCheck.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67040B7E8CC94DEA58B8A389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6704068D15ABAF941B945D5B /* UIKit.framework in Frameworks */,
+				6704008D90DD45C577E5735D /* Foundation.framework in Frameworks */,
+				670403378F0F6D7C01D66DDF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67040CEA5A5F7C30A4EDBEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670409A8764FCA7CC60382AC /* SenTestingKit.framework in Frameworks */,
+				6704034959F025FC4BC1AB5E /* UIKit.framework in Frameworks */,
+				67040BDACD6B23A9BEA0D5C1 /* Foundation.framework in Frameworks */,
+				67040A6F2F8FD54C5CE19365 /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670400A30206956649BDEEBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				670408B8C6833C99187F805A /* BankTransferApp-Info.plist */,
+				67040BAADB97D351DF3242C1 /* InfoPlist.strings */,
+				670400A881EE22548BA8A616 /* main.m */,
+				67040E0F8B16553C37113CAC /* BankTransferApp-Prefix.pch */,
+				670407212DDE53C71C6004F8 /* Default.png */,
+				67040A271449B372BDF6C5A3 /* Default@2x.png */,
+				67040CB3F221F01F4BB0BC4D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6704024C6C457DD84CE0305D /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				67040705D8CE8BB0E7C7A779 /* ISanityCheck.h */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		67040391B33D68983FEF1A39 /* BankTransferApp */ = {
+			isa = PBXGroup;
+			children = (
+				670400A30206956649BDEEBD /* Supporting Files */,
+				6704066B143664CE5F57BDBA /* AppDelegate.h */,
+				6704080396B696365335816C /* AppDelegate.m */,
+				6704093D7FFD0BFBA20871E9 /* ViewController.h */,
+				6704082D761F2D4B176254BF /* ViewController.m */,
+				67040356C59731F326078448 /* ViewController.xib */,
+				6704024C6C457DD84CE0305D /* Repositories */,
+			);
+			path = BankTransferApp;
+			sourceTree = "<group>";
+		};
+		67040460C68DD97BFD9CB2C8 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				670409E43ECBD0514ED6F9D9 /* OCMock */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		670409E43ECBD0514ED6F9D9 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				670404902B78434CE7D44194 /* NSNotificationCenter+OCMAdditions.h */,
+				67040F83B1C35C85C158E8D8 /* OCMArg.h */,
+				67040D90DE14D225623FBCBA /* OCMConstraint.h */,
+				67040CDDA88C18E26DB4BFBC /* OCMock.h */,
+				670400B5BF3CCCBC74B8B875 /* OCMockObject.h */,
+				6704006450F3C439A282489D /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		67040BEA179FC461C4C40CCF /* BankTransferAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				67040FFB965BB08813289B20 /* Supporting Files */,
+				67040FD8CF95BD88E4BB1BB9 /* SanityCheck.h */,
+				6704081CCC4CB615E9E4F0DA /* SanityCheck.m */,
+			);
+			path = BankTransferAppTests;
+			sourceTree = "<group>";
+		};
+		67040C38733DD25A13D0868E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				670407DFB760978E2A3D4DBD /* BankTransferApp.app */,
+				67040F99305A07D4634B879F /* BankTransferAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67040C3BF85EB127C7CAD9C0 = {
+			isa = PBXGroup;
+			children = (
+				67040C38733DD25A13D0868E /* Products */,
+				67040D2C4E420376C85956CB /* Frameworks */,
+				67040391B33D68983FEF1A39 /* BankTransferApp */,
+				67040BEA179FC461C4C40CCF /* BankTransferAppTests */,
+				67040460C68DD97BFD9CB2C8 /* Libs */,
+			);
+			sourceTree = "<group>";
+		};
+		67040D2C4E420376C85956CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67040A51053ADB7AB2810227 /* UIKit.framework */,
+				6704008CDBBF1DFDB3CCBBF3 /* Foundation.framework */,
+				670409510B2428AE0EED5E3A /* CoreGraphics.framework */,
+				67040A9B30EB5A2DD0C20F47 /* SenTestingKit.framework */,
+				670404A70A678B7AECDD1625 /* libOCMock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67040FFB965BB08813289B20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6704055C9318DD978CC8746F /* BankTransferAppTests-Info.plist */,
+				6704075D504AA89089E83B65 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6704093B8FFCE7A93CB558B4 /* BankTransferApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67040CB8CE1DB40DA8A52628 /* Build configuration list for PBXNativeTarget "BankTransferApp" */;
+			buildPhases = (
+				67040EB553074A954EA73EDD /* Sources */,
+				67040B7E8CC94DEA58B8A389 /* Frameworks */,
+				670409BEFFAFA0F9A3D19B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankTransferApp;
+			productName = BankTransferApp;
+			productReference = 670407DFB760978E2A3D4DBD /* BankTransferApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67040CE5A1CC0D3A46944695 /* BankTransferAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67040BCF33BAA15FB655A65A /* Build configuration list for PBXNativeTarget "BankTransferAppTests" */;
+			buildPhases = (
+				67040975622A65D82DF07131 /* Sources */,
+				67040CEA5A5F7C30A4EDBEE0 /* Frameworks */,
+				670405AAE11C9E55549990E6 /* Resources */,
+				6704053A977A0BA9FE0C0F93 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67040BBCAAA9691CB384B0D1 /* PBXTargetDependency */,
+			);
+			name = BankTransferAppTests;
+			productName = BankTransferAppTests;
+			productReference = 67040F99305A07D4634B879F /* BankTransferAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6704094DBEC3A8AF4D2DDC4C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 67040C4FBB3860E1C058BB20 /* Build configuration list for PBXProject "BankTransferApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67040C3BF85EB127C7CAD9C0;
+			productRefGroup = 67040C38733DD25A13D0868E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6704093B8FFCE7A93CB558B4 /* BankTransferApp */,
+				67040CE5A1CC0D3A46944695 /* BankTransferAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		670405AAE11C9E55549990E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670402470A005889F529EBE4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670409BEFFAFA0F9A3D19B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6704046B20CA6976CAED211E /* InfoPlist.strings in Resources */,
+				67040B4A23D393881DAA3DCB /* Default.png in Resources */,
+				67040AB046CBF47FB1FCF115 /* Default@2x.png in Resources */,
+				670406FF28325872A912E6BC /* Default-568h@2x.png in Resources */,
+				670408A0CFE2EC5FEA90A83D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6704053A977A0BA9FE0C0F93 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67040975622A65D82DF07131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67040BF68354C13FFB5619D0 /* SanityCheck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67040EB553074A954EA73EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670402128C7E503598686250 /* main.m in Sources */,
+				670409878D8D6CFC06F50048 /* AppDelegate.m in Sources */,
+				670406DB214C162BD960FC43 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67040BBCAAA9691CB384B0D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6704093B8FFCE7A93CB558B4 /* BankTransferApp */;
+			targetProxy = 67040C88AF37934BA4E1A7F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67040356C59731F326078448 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670401B9F88DD87C1E716B60 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		6704075D504AA89089E83B65 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67040B47080927727EC18BAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67040BAADB97D351DF3242C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670402124E7630F4974C68BD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6704027470271837F6D86107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferApp/BankTransferApp-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferApp/BankTransferApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/Libs\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		670404FAC9B0EB54EC9DC93A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BankTransferApp.app/BankTransferApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferApp/BankTransferApp-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferAppTests/BankTransferAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"Libs/OCMock/**",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					Libs/OCMock/libOCMock.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		67040AA138A7C536165069D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferApp/BankTransferApp-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferApp/BankTransferApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/Libs\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67040CB415D04DFC389DC0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67040EEB4F80F83E5DA36B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67040FD786AB4B6248F3CF78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BankTransferApp.app/BankTransferApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BankTransferApp/BankTransferApp-Prefix.pch";
+				INFOPLIST_FILE = "BankTransferAppTests/BankTransferAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"Libs/OCMock/**",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					Libs/OCMock/libOCMock.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67040BCF33BAA15FB655A65A /* Build configuration list for PBXNativeTarget "BankTransferAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670404FAC9B0EB54EC9DC93A /* Release */,
+				67040FD786AB4B6248F3CF78 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67040C4FBB3860E1C058BB20 /* Build configuration list for PBXProject "BankTransferApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67040EEB4F80F83E5DA36B47 /* Release */,
+				67040CB415D04DFC389DC0F7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67040CB8CE1DB40DA8A52628 /* Build configuration list for PBXNativeTarget "BankTransferApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67040AA138A7C536165069D4 /* Release */,
+				6704027470271837F6D86107 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6704094DBEC3A8AF4D2DDC4C /* Project object */;
+}
