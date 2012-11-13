@@ -12,8 +12,18 @@
 
 @implementation SanityCheck
 
-- (void) testSanityCheck{
+- (void) test_SanityCheck{
     id sanityCheckRepo = [OCMockObject mockForProtocol:@protocol(ISanityCheck)];
+
+    [sanityCheckRepo verify];
+}
+
+- (void) test_SanityCheckWillCallHelloWorld{
+    id sanityCheckRepo = [OCMockObject mockForProtocol:@protocol(ISanityCheck)];
+
+    [[sanityCheckRepo expect] sayHelloWorld]  ;
+
+    [sanityCheckRepo sayHelloWorld];
 
     [sanityCheckRepo verify];
 }

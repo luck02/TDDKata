@@ -7,4 +7,5 @@
 
 @protocol ISanityCheck <NSObject>
 
+- (void) sayHelloWorld ;
 @end
