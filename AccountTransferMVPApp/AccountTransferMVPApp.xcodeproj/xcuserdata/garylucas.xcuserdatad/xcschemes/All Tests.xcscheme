@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "67040A338C18A308BD96B71B"
+               BuildableName = "AccountTransferMVPAppTests.octest"
+               BlueprintName = "AccountTransferMVPAppTests"
+               ReferencedContainer = "container:AccountTransferMVPApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "67040A338C18A308BD96B71B"
+               BuildableName = "AccountTransferMVPAppTests.octest"
+               BlueprintName = "AccountTransferMVPAppTests"
+               ReferencedContainer = "container:AccountTransferMVPApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>
