@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6704006C61A65D0A884D0117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67040357AAF0B3615F6CAF32 /* UIKit.framework */; };
+		670400F02AB01D9F3890227C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67040357AAF0B3615F6CAF32 /* UIKit.framework */; };
+		6704025D4FC2D9FFFE88F208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67040CE3D32CBF4C3D4A34A6 /* ViewController.m */; };
+		670403279CAD181AD24BD58A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6704004F79A5F82BEE418371 /* InfoPlist.strings */; };
+		670403C5C52A5D40168281AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670402A3DE19060BF1515B86 /* AppDelegate.m */; };
+		6704049073F52558B9F3722B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6704033DA1DD48BADE490661 /* Foundation.framework */; };
+		6704081AD455FFC151F34943 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67040558D96968A61C9EDEFB /* SenTestingKit.framework */; };
+		67040825630FA9342FA11A94 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67040B75CAE66BFDE9653D77 /* ViewController.xib */; };
+		67040886A63773487027DAB6 /* SanityCheckTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 67040399475018286CD0C716 /* SanityCheckTest.m */; };
+		670409EEC6FC50043921CA1D /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 670407A04D714489456F2465 /* libOCMock.a */; };
+		67040BBA378C1620C369BF15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6704033DA1DD48BADE490661 /* Foundation.framework */; };
+		67040C3921B473D8395B116B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67040A3E67D64349DFA9B1B6 /* Default.png */; };
+		67040C9FB4BEBAD8791FC9BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67040D5D9D67CB46F8C6705E /* Default@2x.png */; };
+		67040E5342333A9318097CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6704045F5BAF8AC5E92DCFB3 /* main.m */; };
+		67040E58D4740FEA570A8ACF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6704059581621C40D292227E /* CoreGraphics.framework */; };
+		67040EF34003C3D20851C991 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670409FB59673E63A35E5DAB /* Default-568h@2x.png */; };
+		67040FD55D77A4DBE4C61281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6704033828185F3024BC477F /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		670407C66A104B589CE0B47A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67040A3015E0A7F351A42E2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67040CBFE098C2F4920445AE;
+			remoteInfo = AccountTransferKata;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6704003436953E9CC0FA324E /* AccountTransferKata-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccountTransferKata-Prefix.pch"; sourceTree = "<group>"; };
+		6704006940D900DE18E7981B /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		67040083CC8BD143329DC4AA /* AccountTransferKata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferKata-Info.plist"; sourceTree = "<group>"; };
+		670401F3B1A27D5C72ECC5EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6704021C83DBFB6A7339B05C /* ISanityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheck.h; sourceTree = "<group>"; };
+		670402887D577353ADCA1551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		670402A3DE19060BF1515B86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6704033DA1DD48BADE490661 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67040357AAF0B3615F6CAF32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67040399475018286CD0C716 /* SanityCheckTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheckTest.m; sourceTree = "<group>"; };
+		6704045F5BAF8AC5E92DCFB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		670404626093B3462F7A8838 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		670404CA5BBE764FCF2E78D3 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		67040557FED712A37B161AA5 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		67040558D96968A61C9EDEFB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6704059581621C40D292227E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		670406582890DF5483FBB3EB /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		67040673393CBD0E81A9F69E /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		670407A04D714489456F2465 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libs/OCMock/iOS/libOCMock.a; sourceTree = "<group>"; };
+		670408703D40E02EF3D194E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		670409FB59673E63A35E5DAB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		67040A3E67D64349DFA9B1B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		67040C67B0C5A384941399C2 /* AccountTransferKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountTransferKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67040C7EB26E706F84052921 /* AccountTransferKataTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountTransferKataTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67040CE3D32CBF4C3D4A34A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67040D558B8D796F2F0EE27D /* SanityCheckTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SanityCheckTest.h; sourceTree = "<group>"; };
+		67040D5D9D67CB46F8C6705E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		67040DD436E5E8C99F3E896F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		67040E07087141A44929ED4C /* AccountTransferKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferKataTests-Info.plist"; sourceTree = "<group>"; };
+		67040E891FB20C9673D056A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6704098469C47A17954D325B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6704081AD455FFC151F34943 /* SenTestingKit.framework in Frameworks */,
+				670400F02AB01D9F3890227C /* UIKit.framework in Frameworks */,
+				6704049073F52558B9F3722B /* Foundation.framework in Frameworks */,
+				670409EEC6FC50043921CA1D /* libOCMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67040B1AA3CCDA5400EB3EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6704006C61A65D0A884D0117 /* UIKit.framework in Frameworks */,
+				67040BBA378C1620C369BF15 /* Foundation.framework in Frameworks */,
+				67040E58D4740FEA570A8ACF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		670400E8472D9344B7028B41 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				67040673393CBD0E81A9F69E /* NSNotificationCenter+OCMAdditions.h */,
+				670404CA5BBE764FCF2E78D3 /* OCMArg.h */,
+				670404626093B3462F7A8838 /* OCMConstraint.h */,
+				67040557FED712A37B161AA5 /* OCMock.h */,
+				6704006940D900DE18E7981B /* OCMockObject.h */,
+				670406582890DF5483FBB3EB /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		670403D8388F2C27AE834249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67040E07087141A44929ED4C /* AccountTransferKataTests-Info.plist */,
+				6704033828185F3024BC477F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67040456C686822A336B2198 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				670405214C7CCFB718381827 /* iOS */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		670405214C7CCFB718381827 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				670400E8472D9344B7028B41 /* OCMock */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		670407835A2EEA6B6A274909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67040357AAF0B3615F6CAF32 /* UIKit.framework */,
+				6704033DA1DD48BADE490661 /* Foundation.framework */,
+				6704059581621C40D292227E /* CoreGraphics.framework */,
+				67040558D96968A61C9EDEFB /* SenTestingKit.framework */,
+				670407A04D714489456F2465 /* libOCMock.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		670408EBFCDD5E75AFD35C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67040C67B0C5A384941399C2 /* AccountTransferKata.app */,
+				67040C7EB26E706F84052921 /* AccountTransferKataTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		670409752F5577BD0780B158 /* AccountTransferKataTests */ = {
+			isa = PBXGroup;
+			children = (
+				670403D8388F2C27AE834249 /* Supporting Files */,
+				67040D558B8D796F2F0EE27D /* SanityCheckTest.h */,
+				67040399475018286CD0C716 /* SanityCheckTest.m */,
+			);
+			path = AccountTransferKataTests;
+			sourceTree = "<group>";
+		};
+		67040BFD93666935C8820BBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67040083CC8BD143329DC4AA /* AccountTransferKata-Info.plist */,
+				6704004F79A5F82BEE418371 /* InfoPlist.strings */,
+				6704045F5BAF8AC5E92DCFB3 /* main.m */,
+				6704003436953E9CC0FA324E /* AccountTransferKata-Prefix.pch */,
+				67040A3E67D64349DFA9B1B6 /* Default.png */,
+				67040D5D9D67CB46F8C6705E /* Default@2x.png */,
+				670409FB59673E63A35E5DAB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67040D29CCB5595C0FD0D740 = {
+			isa = PBXGroup;
+			children = (
+				670408EBFCDD5E75AFD35C74 /* Products */,
+				670407835A2EEA6B6A274909 /* Frameworks */,
+				67040FD8D076D74960E52BD2 /* AccountTransferKata */,
+				670409752F5577BD0780B158 /* AccountTransferKataTests */,
+				67040E6C24413146348C4DEA /* Libs */,
+				6704021C83DBFB6A7339B05C /* ISanityCheck.h */,
+			);
+			sourceTree = "<group>";
+		};
+		67040E6C24413146348C4DEA /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				67040456C686822A336B2198 /* OCMock */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		67040FD8D076D74960E52BD2 /* AccountTransferKata */ = {
+			isa = PBXGroup;
+			children = (
+				67040BFD93666935C8820BBB /* Supporting Files */,
+				670401F3B1A27D5C72ECC5EE /* AppDelegate.h */,
+				670402A3DE19060BF1515B86 /* AppDelegate.m */,
+				67040E891FB20C9673D056A7 /* ViewController.h */,
+				67040CE3D32CBF4C3D4A34A6 /* ViewController.m */,
+				67040B75CAE66BFDE9653D77 /* ViewController.xib */,
+			);
+			path = AccountTransferKata;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67040B6FC99E3E0085A9818B /* AccountTransferKataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67040ECCC34196C3AB29C548 /* Build configuration list for PBXNativeTarget "AccountTransferKataTests" */;
+			buildPhases = (
+				670408C0F507471D77B4E81F /* Sources */,
+				6704098469C47A17954D325B /* Frameworks */,
+				67040C38A93ED5E63D121452 /* Resources */,
+				67040307038BF3CF674FC539 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67040F1815B21B59E8CD1559 /* PBXTargetDependency */,
+			);
+			name = AccountTransferKataTests;
+			productName = AccountTransferKataTests;
+			productReference = 67040C7EB26E706F84052921 /* AccountTransferKataTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		67040CBFE098C2F4920445AE /* AccountTransferKata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 670406B6A9B19F3C7BC2D638 /* Build configuration list for PBXNativeTarget "AccountTransferKata" */;
+			buildPhases = (
+				670409AEA5E49FA6CC3E828B /* Sources */,
+				67040B1AA3CCDA5400EB3EA0 /* Frameworks */,
+				67040013CC6739DC110E0067 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccountTransferKata;
+			productName = AccountTransferKata;
+			productReference = 67040C67B0C5A384941399C2 /* AccountTransferKata.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67040A3015E0A7F351A42E2A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 67040CB90082755D40682E8F /* Build configuration list for PBXProject "AccountTransferKata" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67040D29CCB5595C0FD0D740;
+			productRefGroup = 670408EBFCDD5E75AFD35C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67040CBFE098C2F4920445AE /* AccountTransferKata */,
+				67040B6FC99E3E0085A9818B /* AccountTransferKataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67040013CC6739DC110E0067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670403279CAD181AD24BD58A /* InfoPlist.strings in Resources */,
+				67040C3921B473D8395B116B /* Default.png in Resources */,
+				67040C9FB4BEBAD8791FC9BD /* Default@2x.png in Resources */,
+				67040EF34003C3D20851C991 /* Default-568h@2x.png in Resources */,
+				67040825630FA9342FA11A94 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67040C38A93ED5E63D121452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67040FD55D77A4DBE4C61281 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67040307038BF3CF674FC539 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		670408C0F507471D77B4E81F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67040886A63773487027DAB6 /* SanityCheckTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		670409AEA5E49FA6CC3E828B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67040E5342333A9318097CCC /* main.m in Sources */,
+				670403C5C52A5D40168281AE /* AppDelegate.m in Sources */,
+				6704025D4FC2D9FFFE88F208 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67040F1815B21B59E8CD1559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67040CBFE098C2F4920445AE /* AccountTransferKata */;
+			targetProxy = 670407C66A104B589CE0B47A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6704004F79A5F82BEE418371 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670402887D577353ADCA1551 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6704033828185F3024BC477F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				670408703D40E02EF3D194E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67040B75CAE66BFDE9653D77 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67040DD436E5E8C99F3E896F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6704000CF6D6A58E1591009E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccountTransferKata.app/AccountTransferKata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferKata/AccountTransferKata-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferKataTests/AccountTransferKataTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\" Libs/OCMock/iOS\"/**",
+					"\"${PROJECT_DIR}/Libs/OCMock/iOS\"/**",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					Libs/OCMock/iOS/libOCMock.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		670400E084CA25D4FC2500EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferKata/AccountTransferKata-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferKata/AccountTransferKata-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/Libs/OCmock/iOS\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		670403D465C929D284288BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AccountTransferKata.app/AccountTransferKata";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferKata/AccountTransferKata-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferKataTests/AccountTransferKataTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"\" Libs/OCMock/iOS\"/**",
+					"\"${PROJECT_DIR}/Libs/OCMock/iOS\"/**",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					Libs/OCMock/iOS/libOCMock.a,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		6704073D8B898E2A089D2874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67040AB7EF67F314A0663114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountTransferKata/AccountTransferKata-Prefix.pch";
+				INFOPLIST_FILE = "AccountTransferKata/AccountTransferKata-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"${PROJECT_DIR}/Libs/OCmock/iOS\"/**";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67040FA5B525DAFFAB56ED7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		670406B6A9B19F3C7BC2D638 /* Build configuration list for PBXNativeTarget "AccountTransferKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670400E084CA25D4FC2500EA /* Release */,
+				67040AB7EF67F314A0663114 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67040CB90082755D40682E8F /* Build configuration list for PBXProject "AccountTransferKata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67040FA5B525DAFFAB56ED7A /* Release */,
+				6704073D8B898E2A089D2874 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67040ECCC34196C3AB29C548 /* Build configuration list for PBXNativeTarget "AccountTransferKataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670403D465C929D284288BC6 /* Release */,
+				6704000CF6D6A58E1591009E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67040A3015E0A7F351A42E2A /* Project object */;
+}

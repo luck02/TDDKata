@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "67040CBFE098C2F4920445AE"
+               BuildableName = "AccountTransferKata.app"
+               BlueprintName = "AccountTransferKata"
+               ReferencedContainer = "container:AccountTransferKata.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "67040CBFE098C2F4920445AE"
+            BuildableName = "AccountTransferKata.app"
+            BlueprintName = "AccountTransferKata"
+            ReferencedContainer = "container:AccountTransferKata.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
