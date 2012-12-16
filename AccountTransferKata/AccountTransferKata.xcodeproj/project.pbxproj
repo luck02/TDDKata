@@ -25,6 +25,8 @@
 		67040C3921B473D8395B116B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67040A3E67D64349DFA9B1B6 /* Default.png */; };
 		67040C9FB4BEBAD8791FC9BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67040D5D9D67CB46F8C6705E /* Default@2x.png */; };
 		67040CBA54EDAF35C95AA443 /* AccountTransferPresenterIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67040D448F727C3B3618B176 /* AccountTransferPresenterIntegrationTests.m */; };
+		67040D212F60E9E6FD745B36 /* ServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6704049DC95AADC7DD318C00 /* ServiceLocatorTests.m */; };
+		67040D4557864C11FBBEB66A /* ServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = 67040F41291B7A9EE2003CB3 /* ServiceLocator.m */; };
 		67040E5342333A9318097CCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6704045F5BAF8AC5E92DCFB3 /* main.m */; };
 		67040E58D4740FEA570A8ACF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6704059581621C40D292227E /* CoreGraphics.framework */; };
 		67040EF34003C3D20851C991 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 670409FB59673E63A35E5DAB /* Default-568h@2x.png */; };
@@ -46,6 +48,7 @@
 		6704006940D900DE18E7981B /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
 		67040083CC8BD143329DC4AA /* AccountTransferKata-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferKata-Info.plist"; sourceTree = "<group>"; };
 		6704010D7B1BF02455FBA08C /* RemoteAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteAccountRepository.h; sourceTree = "<group>"; };
+		6704015E0433FA450DDEB357 /* PresenterTypeEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresenterTypeEnum.h; sourceTree = "<group>"; };
 		670401F3B1A27D5C72ECC5EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6704021C83DBFB6A7339B05C /* ISanityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISanityCheck.h; sourceTree = "<group>"; };
 		670402887D577353ADCA1551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 		67040399475018286CD0C716 /* SanityCheckTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SanityCheckTest.m; sourceTree = "<group>"; };
 		6704045F5BAF8AC5E92DCFB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		670404626093B3462F7A8838 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		6704049DC95AADC7DD318C00 /* ServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocatorTests.m; sourceTree = "<group>"; };
 		670404CA5BBE764FCF2E78D3 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
 		670404D7B4C94AA7AFC3440F /* IAccountTransferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAccountTransferView.h; sourceTree = "<group>"; };
 		67040557FED712A37B161AA5 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 		670406BC8A05B56AFE06DDB5 /* IRemoteAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRemoteAccountRepository.h; sourceTree = "<group>"; };
 		6704072B842E89B036A97C39 /* AccountTransferPresenterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTransferPresenterTests.h; sourceTree = "<group>"; };
 		670407A04D714489456F2465 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOCMock.a; path = Libs/OCMock/iOS/libOCMock.a; sourceTree = "<group>"; };
+		670407EB88059B8393EFAF3E /* ServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocator.h; sourceTree = "<group>"; };
 		670408703D40E02EF3D194E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		670409FB59673E63A35E5DAB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		67040A3E67D64349DFA9B1B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -84,7 +89,9 @@
 		67040DD436E5E8C99F3E896F /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewController.xib; path = ../en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		67040E07087141A44929ED4C /* AccountTransferKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferKataTests-Info.plist"; sourceTree = "<group>"; };
 		67040E891FB20C9673D056A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67040F41291B7A9EE2003CB3 /* ServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocator.m; sourceTree = "<group>"; };
 		67040F539DD63E9DB132A9B1 /* LocalAccountRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalAccountRepository.m; sourceTree = "<group>"; };
+		67040F78C5ED22930655503E /* ServiceLocatorTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocatorTests.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +193,9 @@
 		67040742FBD55351A49D2E49 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				6704015E0433FA450DDEB357 /* PresenterTypeEnum.h */,
+				67040F41291B7A9EE2003CB3 /* ServiceLocator.m */,
+				670407EB88059B8393EFAF3E /* ServiceLocator.h */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -219,6 +229,7 @@
 				67040399475018286CD0C716 /* SanityCheckTest.m */,
 				6704071A3AA310F950192CB7 /* Presenters.Tests.Unit */,
 				67040F65E91B35659275EBB9 /* Presenter.Tests.Integration */,
+				67040D15B58E164765C260A6 /* Utils.Tests.Unit */,
 			);
 			path = AccountTransferKataTests;
 			sourceTree = "<group>";
@@ -243,6 +254,15 @@
 				670409FB59673E63A35E5DAB /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67040D15B58E164765C260A6 /* Utils.Tests.Unit */ = {
+			isa = PBXGroup;
+			children = (
+				67040F78C5ED22930655503E /* ServiceLocatorTests.h */,
+				6704049DC95AADC7DD318C00 /* ServiceLocatorTests.m */,
+			);
+			path = Utils.Tests.Unit;
 			sourceTree = "<group>";
 		};
 		67040D29CCB5595C0FD0D740 = {
@@ -406,6 +426,7 @@
 				67040886A63773487027DAB6 /* SanityCheckTest.m in Sources */,
 				670407F9AA1E363B3E57EB7B /* AccountTransferPresenterTests.m in Sources */,
 				67040CBA54EDAF35C95AA443 /* AccountTransferPresenterIntegrationTests.m in Sources */,
+				67040D212F60E9E6FD745B36 /* ServiceLocatorTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +440,7 @@
 				67040142D269BEDE1F6F660D /* AccountTransferPresenter.m in Sources */,
 				67040715364E7A36D5610EF2 /* RemoteAccountRepository.m in Sources */,
 				670404FA2FE3C88F46665628 /* LocalAccountRepository.m in Sources */,
+				67040D4557864C11FBBEB66A /* ServiceLocator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
