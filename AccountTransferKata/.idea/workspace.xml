@@ -20,19 +20,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.0_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IAccountTransferView.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Views/IAccountTransferView.h">
+      <file leaf-file-name="RemoteAccountRepository.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="47" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ILocalAccountRepository.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/ILocalAccountRepository.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="41" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -47,53 +38,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTransferPresenter.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.h">
+      <file leaf-file-name="RemoteAccountRepository.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTransferPresenter.m" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="99" selection-start="946" selection-end="946" vertical-scroll-proportion="0.8465011">
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountTransferPresenterTests.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="21" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ISanityCheck.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/ISanityCheck.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0">
+            <state line="3" column="11" selection-start="49" selection-end="49" vertical-scroll-proportion="0.07380608">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SanityCheckTest.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/SanityCheckTest.m">
+      <file leaf-file-name="AccountTransferPresenterIntegrationTests.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenter.Tests.Integration/AccountTransferPresenterIntegrationTests.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="63" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="11" column="78" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +78,9 @@
         <option value="$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.h" />
         <option value="$PROJECT_DIR$/AccountTransferKataTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m" />
         <option value="$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.m" />
+        <option value="$PROJECT_DIR$/AccountTransferKataTests/Presenter.Tests.Integration/AccountTransferPresenterIntegrationTests.m" />
+        <option value="$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.h" />
+        <option value="$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.m" />
       </list>
     </option>
   </component>
@@ -188,24 +151,6 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="AccountTransferKataTests" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Presenters.Tests.Unit" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AccountTransferKata" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="AccountTransferKata" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
@@ -225,24 +170,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Repositories" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AccountTransferKata" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AccountTransferKata" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Presenters" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,19 +222,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.44568247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6713092" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.2172702" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.32451254" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -371,10 +318,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/SanityCheckTest.m">
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="63" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="28" column="57" selection-start="904" selection-end="904" vertical-scroll-proportion="0.7020649">
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="21" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.5737463">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -385,10 +343,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/SanityCheckTest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="63" selection-start="305" selection-end="305" vertical-scroll-proportion="0.27062228">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.22566372">
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/ILocalAccountRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="97" selection-end="97" vertical-scroll-proportion="0.07380608">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AccountTransferKata/Views/IAccountTransferView.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="47" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+        <state line="4" column="47" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0984081">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenter.Tests.Integration/AccountTransferPresenterIntegrationTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="78" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -399,37 +389,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/ILocalAccountRepository.h">
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="41" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.h">
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenters.Tests.Unit/AccountTransferPresenterTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="1320" selection-end="1320" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="99" selection-start="946" selection-end="946" vertical-scroll-proportion="0.8465011">
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
+        <state line="3" column="11" selection-start="49" selection-end="49" vertical-scroll-proportion="0.07380608">
+          <folding />
         </state>
       </provider>
     </entry>
