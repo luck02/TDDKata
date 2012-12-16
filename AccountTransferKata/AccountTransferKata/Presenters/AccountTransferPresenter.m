@@ -26,7 +26,7 @@
     NSNumber *amount = [_accountTransferView getTransferAmount];
     [_remoteAccountRepository withDrawAmount:amount];
     [_localAccountRepository depositAmount:amount];
-    [_accountTransferView setDisplayMessage:[NSString stringWithFormat:@"%@ transferred", amount]];
+    [_accountTransferView setDisplayMessage:[NSString stringWithFormat:@"$%@ transferred.", amount]];
 
 }
 @end

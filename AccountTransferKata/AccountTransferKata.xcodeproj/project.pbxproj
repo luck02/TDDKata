@@ -14,6 +14,7 @@
 		670403279CAD181AD24BD58A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6704004F79A5F82BEE418371 /* InfoPlist.strings */; };
 		670403C5C52A5D40168281AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 670402A3DE19060BF1515B86 /* AppDelegate.m */; };
 		6704049073F52558B9F3722B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6704033DA1DD48BADE490661 /* Foundation.framework */; };
+		670404FA2FE3C88F46665628 /* LocalAccountRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 67040F539DD63E9DB132A9B1 /* LocalAccountRepository.m */; };
 		67040715364E7A36D5610EF2 /* RemoteAccountRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 670405859922E29AFEBF1111 /* RemoteAccountRepository.m */; };
 		670407F9AA1E363B3E57EB7B /* AccountTransferPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67040390F263DE38E8E62DE3 /* AccountTransferPresenterTests.m */; };
 		6704081AD455FFC151F34943 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67040558D96968A61C9EDEFB /* SenTestingKit.framework */; };
@@ -61,6 +62,7 @@
 		670404D7B4C94AA7AFC3440F /* IAccountTransferView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAccountTransferView.h; sourceTree = "<group>"; };
 		67040557FED712A37B161AA5 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
 		67040558D96968A61C9EDEFB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6704057B2918C6C38C0C4045 /* LocalAccountRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalAccountRepository.h; sourceTree = "<group>"; };
 		670405859922E29AFEBF1111 /* RemoteAccountRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteAccountRepository.m; sourceTree = "<group>"; };
 		6704059581621C40D292227E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		670406582890DF5483FBB3EB /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		67040DD436E5E8C99F3E896F /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewController.xib; path = ../en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		67040E07087141A44929ED4C /* AccountTransferKataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "AccountTransferKataTests-Info.plist"; sourceTree = "<group>"; };
 		67040E891FB20C9673D056A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67040F539DD63E9DB132A9B1 /* LocalAccountRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalAccountRepository.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				670406BC8A05B56AFE06DDB5 /* IRemoteAccountRepository.h */,
 				670405859922E29AFEBF1111 /* RemoteAccountRepository.m */,
 				6704010D7B1BF02455FBA08C /* RemoteAccountRepository.h */,
+				67040F539DD63E9DB132A9B1 /* LocalAccountRepository.m */,
+				6704057B2918C6C38C0C4045 /* LocalAccountRepository.h */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 				6704025D4FC2D9FFFE88F208 /* ViewController.m in Sources */,
 				67040142D269BEDE1F6F660D /* AccountTransferPresenter.m in Sources */,
 				67040715364E7A36D5610EF2 /* RemoteAccountRepository.m in Sources */,
+				670404FA2FE3C88F46665628 /* LocalAccountRepository.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,7 @@
     [[[accountTransferView expect] andReturn:amount] getTransferAmount];
     [[remoteAccountRepository expect] withDrawAmount:amount];
     [[localAccountRepository expect] depositAmount:amount];
-    [[accountTransferView expect] setDisplayMessage:@"150 transferred"];
+    [[accountTransferView expect] setDisplayMessage:@"$150 transferred."];
 
     // Instantiate Presenter with injected protocols
 
