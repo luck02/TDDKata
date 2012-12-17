@@ -20,66 +20,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_6.0_1" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PresenterTypeEnum.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/PresenterTypeEnum.h">
+      <file leaf-file-name="ViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AccountTransferKata/ViewControllers/ViewController.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="56" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceLocator.h" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/ServiceLocator.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="29" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountTransferPresenterIntegrationTests.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenter.Tests.Integration/AccountTransferPresenterIntegrationTests.m">
+      <file leaf-file-name="ViewController.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AccountTransferKata/ViewControllers/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="943" selection-end="1082" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoteAccountRepository.h" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0745614">
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceLocator.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/ServiceLocator.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="11" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+            <state line="31" column="49" selection-start="723" selection-end="723" vertical-scroll-proportion="1.1481482">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1355697808000" expanded="true" signature="234:840" placeholder="..." />
-                <marker date="1355697808000" expanded="true" signature="292:483" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceLocatorTests.m" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Utils.Tests.Unit/ServiceLocatorTests.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -94,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AccountTransferKata/Repositories/IRemoteAccountRepository.h" />
-        <option value="$PROJECT_DIR$/AccountTransferKata/Repositories/ILocalAccountRepository.h" />
         <option value="$PROJECT_DIR$/AccountTransferKata/Views/IAccountTransferView.h" />
         <option value="$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.h" />
         <option value="$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.m" />
@@ -110,13 +66,15 @@
         <option value="$PROJECT_DIR$/AccountTransferKata/Utils/ServiceLocator.h" />
         <option value="$PROJECT_DIR$/AccountTransferKata/Utils/ServiceLocator.m" />
         <option value="$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.h" />
+        <option value="$PROJECT_DIR$/AccountTransferKata/ViewControllers/ViewController.h" />
+        <option value="$PROJECT_DIR$/AccountTransferKata/ViewControllers/ViewController.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="816" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -144,6 +102,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,19 +175,20 @@
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Utils" />
+              <option name="myItemId" value="ViewControllers" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodePBXReferenceNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="AccountTransferKata" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RunManager" selected="OCUnit.Alltests">
     <configuration default="false" name="AccountTransferKata" type="AppleRunConfiguration" factoryName="Application" temporary="true" SCHEME_NAME="AccountTransferKata" PROJECT_NAME="AccountTransferKata" TARGET_NAME="AccountTransferKata" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="AccountTransferKata" RUN_TARGET_NAME="AccountTransferKata" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -252,8 +212,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.AccountTransferKata" />
-      <item index="1" class="java.lang.String" itemvalue="OCUnit.Alltests" />
+      <item index="0" class="java.lang.String" itemvalue="OCUnit.Alltests" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AccountTransferKata" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -264,6 +224,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="2202d4b0-b07f-414a-8583-709a8ad7eae8" name="Default" comment="" />
       <created>1355612165613</created>
       <updated>1355612165613</updated>
     </task>
@@ -290,26 +251,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="816" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.67270195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6731302" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.32451254" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32729805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982357" sideWeight="0.32451254" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32686982" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -365,22 +326,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/SanityCheckTest.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="63" selection-start="305" selection-end="305" vertical-scroll-proportion="0.27062228">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Presenters/AccountTransferPresenter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.22566372">
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/ILocalAccountRepository.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="41" selection-start="97" selection-end="97" vertical-scroll-proportion="0.07380608">
@@ -441,41 +386,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/PresenterTypeEnum.h">
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/ServiceLocator.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="29" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0745614">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Utils.Tests.Unit/ServiceLocatorTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenter.Tests.Integration/AccountTransferPresenterIntegrationTests.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="943" selection-end="1082" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/ServiceLocator.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0">
+        <state line="25" column="11" selection-start="730" selection-end="730" vertical-scroll-proportion="0.78289473">
           <folding>
             <element signature="e#0#26#0" expanded="true" />
             <marker date="1355697808000" expanded="true" signature="234:840" placeholder="..." />
@@ -484,11 +406,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Repositories/RemoteAccountRepository.h">
+    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Utils.Tests.Unit/ServiceLocatorTests.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0745614">
+        <state line="6" column="8" selection-start="171" selection-end="171" vertical-scroll-proportion="0.2302483">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKataTests/Presenter.Tests.Integration/AccountTransferPresenterIntegrationTests.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="943" selection-end="1082" vertical-scroll-proportion="0.75395036">
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/PresenterTypeEnum.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="56" selection-start="106" selection-end="106" vertical-scroll-proportion="0.2236842">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/Utils/ServiceLocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="29" selection-start="63" selection-end="63" vertical-scroll-proportion="0.024602026">
           <folding>
             <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/ViewControllers/ViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AccountTransferKata/ViewControllers/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="49" selection-start="723" selection-end="723" vertical-scroll-proportion="1.1481482">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

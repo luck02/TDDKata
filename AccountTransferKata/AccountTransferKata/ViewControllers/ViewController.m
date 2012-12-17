@@ -1,12 +1,6 @@
-//
-//  ViewController.m
-//  AccountTransferKata
-//
-//  Created by gary lucas on 12/15/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
-
 #import "ViewController.h"
+#import "ServiceLocator.h"
+#import "AccountTransferPresenter.h"
 
 @interface ViewController ()
 
@@ -17,7 +11,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    AccountTransferPresenter * accountTransferPresenter = [ServiceLocator resolve:AccountTransfer];
+    accountTransferPresenter.accountTransferView = self;
+
+    [accountTransferPresenter transferAmount];
+}
+
+- (NSNumber *)getTransferAmount {
+    return @150.00;
+}
+
+- (void)setDisplayMessage:(NSString *)message {
+    NSLog(@"Display message passed to view controller is: %@", message);
 }
 
 - (void)didReceiveMemoryWarning
